@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Find Empty Folders – Anleitung</title>
+<style>
+:root{
+  --bg:#0b1117;
+  --panel:#0f1623;
+  --border:#1f2a3a;
+  --text:#e6edf3;
+  --muted:#9aa7b5;
+  --accent:#2f81f7;
+  --soft:#0c1622;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background:linear-gradient(180deg,#0c1622 0%, #090e14 100%);
+  color:var(--text);
+}
+.main{
+  padding:28px 28px 40px 28px;
+  max-width:980px;
+  margin:0 auto;
+}
+.h1{
+  font-size:34px;
+  font-weight:750;
+  margin:0 0 10px 0;
+  letter-spacing:0.2px;
+}
+.sub{
+  color:var(--muted);
+  font-size:16px;
+  margin:0 0 22px 0;
+}
+.section{
+  margin:18px 0 0 0;
+  border:1px solid var(--border);
+  background:var(--panel);
+  border-radius:16px;
+  overflow:hidden;
+}
+.section .head{
+  padding:14px 16px;
+  background:linear-gradient(180deg,#0f1a2a,#0b1320);
+  border-bottom:1px solid var(--border);
+  font-size:16px;
+  font-weight:700;
+}
+.section .body{
+  padding:14px 16px 16px 16px;
+  color:var(--text);
+  font-size:16px;
+  line-height:1.55;
+}
+.body p{margin:0 0 10px 0}
+.body p:last-child{margin:0}
+.steps{
+  margin:0;
+  padding-left:22px;
+}
+.steps li{
+  margin:8px 0;
+}
+a{
+  color:var(--accent);
+  text-decoration:none;
+}
+a:hover{ text-decoration:underline; }
+.note{
+  margin-top:18px;
+  border:1px solid var(--border);
+  background:var(--panel);
+  border-radius:16px;
+  padding:14px 16px 16px 16px;
+}
+.note .title{
+  font-weight:750;
+  margin-bottom:6px;
+}
+.note .text{
+  color:var(--text);
+  font-size:16px;
+  line-height:1.55;
+}
+.hr{
+  height:1px;
+  background:var(--border);
+  margin:18px 0 0 0;
+}
+</style>
+</head>
+<body>
+  <div class="main">
+    <div class="h1">Find Empty Folders – Anleitung</div>
+    <div class="sub">Leere Ordner in iCloud Drive schnell finden und entfernen</div>
+
+    <div class="section">
+      <div class="head">1. App herunterladen</div>
+      <div class="body">
+        <p>Die App kann direkt hier geladen werden:</p>
+        <p><a href="https://www.tempel.org/FindEmptyFolders" target="_blank" rel="noopener">https://www.tempel.org/FindEmptyFolders</a></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="head">2. Start der App</div>
+      <div class="body">
+        <p>Nach dem Öffnen erscheint ein leeres Fenster. Die App muss nicht in den Programme-Ordner verschoben werden.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="head">3. Ordner auswählen</div>
+      <div class="body">
+        <ol class="steps">
+          <li>Im Finder einen beliebigen iCloud-Drive-Unterordner öffnen.</li>
+          <li>Diesen Ordner per Drag-and-Drop in das Fenster von „Find Empty Folders“ ziehen.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="head">4. Analyse</div>
+      <div class="body">
+        <p>Die App durchsucht den hineingezogenen Ordner vollständig und zeigt alle leeren Ordner an.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="head">5. Leere Ordner löschen</div>
+      <div class="body">
+        <p>Im Ergebnisfenster können alle gefundenen leeren Ordner direkt über „Trash“ gelöscht werden.</p>
+      </div>
+    </div>
+
+    <div class="note">
+      <div class="title">Hinweis</div>
+      <div class="text">
+        In der App sollte die Option „Don’t look inside invisible folders“ aktiviert bleiben. So werden unsichtbare Systemordner nicht berücksichtigt.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
